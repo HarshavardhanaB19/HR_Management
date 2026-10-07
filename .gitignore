@@ -1,0 +1,52 @@
+# Java & Build Output
+*.class
+target/
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+logs/
+
+# Maven Wrapper & Timings
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Secrets & Environment Configurations
+.env
+.env.local
+*.env
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE - Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IDE - Visual Studio Code
+.vscode/
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Crash Logs
+hs_err_pid*
+replay_pid*
